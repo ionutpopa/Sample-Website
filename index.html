@@ -1,108 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>home</title>
-        <link rel="stylesheet" href="./style/style.css">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <main>
-            <section>
-                <div class="nav-wrapper">
-                    <a class="logo">Logo</a>
-                    <nav class="nav-right">
-                        <ul class="nav-list">
-                            <li><a class="nav-link" href="index.html">Home</a></li>
-                            <li><a class="nav-link" href="#">Main</a></li>
-                            <li><a class="nav-link" href="about.html">About</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="diamond-shape"></div>
-                <div class="center">
-                    <p class="center-text">example</p>
-                </div>
-                <div class="icon-bar">
-                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="google"><i class="fa fa-google"></i></a>
-                    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
-                </div>
-                <video id="video" autoplay muted loop id="video">
-                    <source src="./assets/video.mp4" type="video/mp4">
-                    Your browser does not support HTML5 video.
-                </video>
-                <div class="grid-container-text">
-                    <div class="text-1">Hey this is a exemple of what I can do,
-                        I hope
-                        it's
-                        good, I don't
-                        know what to write here, loooooong text baby, very long
-                        very
-                        text, yeeehaaaw, nobody will read this anyway, or I hope
-                        nobody
-                        will. For the next paragraf I'm gonna do the lorem ipsum
-                        trick.</div>
-                    <div class="somelogo-1"></div>
-                    <div class="somelogo-2"></div>
-                    <div class="text-2">Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit.
-                        Obcaecati quibusdam, corrupti praesentium omnis iste
-                        harum
-                        tempore, voluptas, vitae eligendi vel repellendus
-                        accusantium
-                        numquam! Amet porro placeat commodi eos quos et?</div>
-                </div>
-                <div class="parallax"></div>
-                <div class="about-section">
-                    <h1>About Me Page</h1>
-                    <p>I said about me because it's just me yeey.</p>
-                    <p>This is just a basic exemple.</p>
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <title>Sample</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <div class="nav-wrapper">
+      <a class="logo">Logo</a>
+      <nav class="nav-right">
+        <ul class="nav-list">
+          <li><a class="nav-link"><b>Home</b></a></li>
+          <li><a class="nav-link" href="#about-section"><b>About</b></a></li>
+          <li><a class="nav-link" href="#pricing"><b>Price</b></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="diamond-shape"></div>
+    <div class="center">
+      <p class="center-text">sample</p>
+    </div>
+    <!-- icons -->
+    <div class="icon-bar">
+      <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+      <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+      <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+    </div>
+    <video id="video" autoplay muted loop>
+      <source src="./assets/video.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+    <img src="./assets/photo-2.jpg" id="photo-replace" alt="photo" />
+    <div class="parallax"></div>
 
-                <div class="pricing-table">
-                    <div class="columns">
-                        <ul class="price">
-                            <li class="header">Basic Stuff</li>
-                            <li class="grey">$ 9.99 / year</li>
-                            <li>so</li>
-                            <li>some</li>
-                            <li>some te</li>
-                            <li>some text</li>
-                            <li class="grey"><a href="#" class="button">Sign Up</a></li>
-                        </ul>
-                    </div>
+    <!-- About -->
 
-                    <div class="columns">
-                        <ul class="price">
-                            <li class="header">Pro Stuff</li>
-                            <li class="grey">$ 19.99 / year</li>
-                            <li>so</li>
-                            <li>some</li>
-                            <li>some te</li>
-                            <li>some text</li>
-                            <li class="grey"><a href="#" class="button">Sign Up</a></li>
-                        </ul>
-                    </div>
+    <div class="about-section" id="about-section">
+      <h2>About</h2>
+      <br />
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores
+        commodi aut natus quidem maxime obcaecati deserunt veniam eum vitae odio
+        voluptatum ipsum eveniet quaerat illo, et quam exercitationem autem
+        dolorem. Aspernatur, soluta sint magnam, ipsum inventore sit, quos
+        perferendis officia iste aperiam suscipit at labore.
+      </p>
+    </div>
 
-                    <div class="columns">
-                        <ul class="price">
-                            <li class="header">Premium Stuff</li>
-                            <li class="grey">$ 29.99 / year</li>
-                            <li>so</li>
-                            <li>some</li>
-                            <li>some te</li>
-                            <li>some text</li>
-                            <li class="grey"><a href="#" class="button">Sign Up</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <script defer src="./js/index.js"></script>
-    </body>
+    <!-- Pricing -->
+
+    <div id="pricing" class="pricing-table">
+      <div class="columns">
+        <ul class="price">
+          <li class="header">Basic Stuff</li>
+          <li class="grey">$ 9.99 / year</li>
+          <li>text</li>
+          <li>text</li>
+          <li>text</li>
+          <li>text</li>
+          <li class="grey"><a href="#" class="button">Buy</a></li>
+        </ul>
+      </div>
+
+      <div class="columns">
+        <ul class="price">
+          <li class="header">Pro Stuff</li>
+          <li class="grey">$ 19.99 / year</li>
+          <li>text</li>
+          <li>text</li>
+          <li>text</li>
+          <li>text</li>
+          <li class="grey"><a href="#" class="button">Buy</a></li>
+        </ul>
+      </div>
+
+      <div class="columns">
+        <ul class="price">
+          <li class="header">Premium Stuff</li>
+          <li class="grey">$ 29.99 / year</li>
+          <li>text</li>
+          <li>text</li>
+          <li>text</li>
+          <li>text</li>
+          <li class="grey"><a href="#" class="button">Buy</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Review Section -->
+
+    <div class="review-text-container">
+      <h2 class="review-text">reviews:</h2>
+    </div>
+
+    <!-- Swiper -->
+    <div class="big-swiper-wrapper">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="text-card">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium, quidem.
+              <small class="somebody">somebody</small>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              Lorem ipsum dolor sit amet consectetur.
+              <small class="somebody">somebody</small>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card special">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+              nostrum autem blanditiis tenetur placeat labore ipsa eligendi
+              odio, modi dignissimos qui repudiandae veritatis.
+              <small class="somebody">somebody</small>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card">
+              Lorem ipsum dolor sit amet, consectetur adipisicing.
+              <small class="somebody">somebody</small>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="text-card special">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              nulla pariatur laborum in deserunt dicta dolores soluta officiis
+              iusto repellendus perferendis dolor natus, tenetur qui vitae quos
+              aliquid porro autem quasi id? Vel, quod quos.
+              <small class="somebody">somebody</small>
+            </div>
+          </div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+      <h3>Footer</h3>
+      <p>made by <a href="https://github.com/ionutpopa">I O N</a></p>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script defer src="./js/index.js"></script>
+  </body>
 </html>
