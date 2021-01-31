@@ -1,5 +1,7 @@
 # Sample Website
 
+Link to website: https://sample-nice-website.netlify.app/
+
 I made this website as a sample for anyone who want some of the css styling it has.
 In making of this website I used pure CSS, HTML and Javascript.
 The slider is made with swiperjs, a very good tool for making sliders and it's very customizable.
